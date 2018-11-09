@@ -9,4 +9,4 @@ function nameToAttributes(drivers) {
   return names
 }
 
-function
+function attributesToPhrase()
