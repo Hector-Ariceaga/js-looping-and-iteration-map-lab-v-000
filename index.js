@@ -5,6 +5,6 @@ function lowerCaseDrivers(drivers) {
 
 function nameToAttributes(drivers) {
   const names = drivers.map(function(driver) {
-    return Object.assign({}, driver, {firstName: driver.split(" ")[0], lastName: driver.split(" ")[1]})})
+    return Object.assign({}, driver, {firstName: driver.split(" ")[0]})})
   return names
 }
